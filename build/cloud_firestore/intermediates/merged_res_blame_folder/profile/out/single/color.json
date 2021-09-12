@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\Animal_Lover\\build\\cloud_firestore\\intermediates\\res\\merged\\profile\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\c46e4282124c2ce2762fea5cb1770300\\transformed\\jetified-play-services-base-17.0.0\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\cloud_firestore\\intermediates\\res\\merged\\profile\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\c46e4282124c2ce2762fea5cb1770300\\transformed\\jetified-play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\cloud_firestore\\intermediates\\res\\merged\\profile\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\c46e4282124c2ce2762fea5cb1770300\\transformed\\jetified-play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Animal_Lover\\build\\video_player\\intermediates\\res\\merged\\profile\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Animal_Lover\\build\\video_player\\intermediates\\incremental\\mergeProfileResources\\merged.dir\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

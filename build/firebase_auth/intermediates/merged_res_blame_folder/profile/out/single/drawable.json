@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7f41a75603a69319f788e111d344ad8c\\transformed\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "F:\\Animal_Lover\\build\\firebase_auth\\intermediates\\res\\merged\\profile\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\7c741ae2089448696f141c8fddc691ec\\transformed\\jetified-play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    }
+]

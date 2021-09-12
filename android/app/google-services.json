@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "233931521458",
+    "project_id": "animal-society-7ae9c",
+    "storage_bucket": "animal-society-7ae9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233931521458:android:38cc41be214c656e4b78ab",
+        "android_client_info": {
+          "package_name": "com.glamworlditltd.animal_society"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233931521458-j4r893ofj9sr6mkmtqb463p3qbun6ebp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glamworlditltd.animal_society",
+            "certificate_hash": "f7392e8bbb76af27a660752fa332be102914fda5"
+          }
+        },
+        {
+          "client_id": "233931521458-23ot0kjkl50at2211cb78t7f2gumpeee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGC9Aj_tyHqYZT9orltkswhHTlpXNv85I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233931521458-23ot0kjkl50at2211cb78t7f2gumpeee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
