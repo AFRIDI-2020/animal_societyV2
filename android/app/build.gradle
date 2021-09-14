@@ -36,7 +36,7 @@ android {
 
     defaultConfig {
         applicationId "com.glamworlditltd.animal_society"
-        minSdkVersion 18
+        minSdkVersion 20
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

@@ -52,4 +52,8 @@
     <string name="ucrop_label_edit_photo">Muokkaa kuvaa</string>
     <string name="ucrop_menu_crop">Rajaa</string>
     <string name="ucrop_mutate_exception_hint"/>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string>
+    <string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
 </resources>

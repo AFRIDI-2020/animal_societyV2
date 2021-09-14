@@ -1,6 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/glamworlditltd/animal_society/MainActivity.java
- com.glamworlditltd.animal_society.MainActivity
-com/glamworlditltd/animal_society/BuildConfig.java
- com.glamworlditltd.animal_society.BuildConfig

@@ -1,6 +1,8 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:pet_lover/custom_classes/DatabaseManager.dart';
 import 'package:pet_lover/custom_classes/TextFieldValidation.dart';
 import 'package:pet_lover/custom_classes/progress_dialog.dart';
@@ -9,6 +11,7 @@ import 'package:pet_lover/home.dart';
 import 'package:pet_lover/provider/userProvider.dart';
 import 'package:pet_lover/register.dart';
 import 'package:pet_lover/sub_screens/forgot_pass.dart';
+import 'package:pet_lover/sub_screens/maintenanceBreak.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -27,6 +30,10 @@ class _LoginState extends State<Login> {
 
   FocusNode mobileNoFocusNode = FocusNode();
   FocusNode passwordFocusNode = FocusNode();
+
+  bool db_update = false;
+  String current_version = '';
+  String running_version = '';
 
   Future<bool> _onBackPressed() async {
     return (await showDialog(
@@ -64,6 +71,36 @@ class _LoginState extends State<Login> {
                   ],
                 ))) ??
         false;
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    getCurrentState();
+  }
+
+  getCurrentState() async {
+    await FirebaseFirestore.instance
+        .collection('Developer')
+        .doc('123456')
+        .get()
+        .then((snapshot) {
+      db_update = snapshot['DB_update'];
+      current_version = snapshot['current_version'];
+    });
+    await PackageInfo.fromPlatform().then((PackageInfo packageInfo) {
+      running_version = packageInfo.version;
+      print('running version = $running_version');
+    });
+    if (db_update == true) {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => MaintenanceBreak()));
+    } else {
+      if (running_version != current_version) {
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => MaintenanceBreak()));
+      }
+    }
   }
 
   @override

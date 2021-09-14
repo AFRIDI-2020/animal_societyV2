@@ -4,6 +4,23 @@
             "outputFile": "F:\\Animal_Lover\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\83ece718654bacf9fbf169480cb26b1e\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,117,167,300",
+                        "endColumns": "61,49,132,109",
+                        "endOffsets": "112,162,295,405"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5601,5663,5713,5846",
+                        "endColumns": "61,49,132,109",
+                        "endOffsets": "5658,5708,5841,5951"
+                    }
+                },
+                {
                     "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\b72a5d9effb52242331ce4511c8dc1ff\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-ar\\values.xml",
                     "from": {
                         "startLines": "4",

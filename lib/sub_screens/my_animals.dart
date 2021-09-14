@@ -46,6 +46,7 @@ class _MyAnimalsState extends State<MyAnimals> {
     return WillPopScope(
       onWillPop: () => _onBackPress(postProvider),
       child: Scaffold(
+        backgroundColor: Colors.grey.shade200,
         appBar: AppBar(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           elevation: 0.0,

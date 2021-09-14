@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\83ece718654bacf9fbf169480cb26b1e\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,168,316",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "114,163,311,423"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5901,5965,6014,6162",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "5960,6009,6157,6269"
+                    }
+                },
+                {
                     "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\b72a5d9effb52242331ce4511c8dc1ff\\transformed\\jetified-firebase-messaging-22.0.0\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4",

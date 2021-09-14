@@ -4,6 +4,23 @@
             "outputFile": "F:\\Animal_Lover\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\83ece718654bacf9fbf169480cb26b1e\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,159,311",
+                        "endColumns": "56,46,151,110",
+                        "endOffsets": "107,154,306,417"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5909,5966,6013,6165",
+                        "endColumns": "56,46,151,110",
+                        "endOffsets": "5961,6008,6160,6271"
+                    }
+                },
+                {
                     "source": "C:\\Users\\CDS\\.gradle\\caches\\transforms-3\\6962ec5b0c8ce9e995ecb27b3624cb06\\transformed\\core-1.5.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",

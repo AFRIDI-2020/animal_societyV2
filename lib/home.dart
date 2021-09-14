@@ -1,8 +1,10 @@
 import 'dart:async';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:pet_lover/custom_classes/DatabaseManager.dart';
 import 'package:pet_lover/demo_designs/search_menu.dart';
 import 'package:pet_lover/login.dart';
@@ -16,7 +18,9 @@ import 'package:pet_lover/provider/userProvider.dart';
 import 'package:pet_lover/sub_screens/EditProfile.dart';
 import 'package:pet_lover/sub_screens/animal_name_search.dart';
 import 'package:pet_lover/sub_screens/groups.dart';
+import 'package:pet_lover/sub_screens/maintenanceBreak.dart';
 import 'package:pet_lover/sub_screens/notificationList.dart';
+import 'package:pet_lover/sub_screens/qr_code_scanning.dart';
 import 'package:pet_lover/sub_screens/reset_password.dart';
 import 'package:pet_lover/sub_screens/search.dart';
 import 'package:pet_lover/sub_screens/searched_users.dart';
@@ -49,6 +53,10 @@ class _HomeState extends State<Home> {
   String _username = '';
   String _finalUsername = '';
   String _mobileNo = '';
+
+  bool db_update = false;
+  String current_version = '';
+  String running_version = '';
 
   _customInit(UserProvider userProvider, PostProvider postProvider) async {
     setState(() {
@@ -108,6 +116,36 @@ class _HomeState extends State<Home> {
                   ],
                 ))) ??
         false;
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    getCurrentState();
+  }
+
+  getCurrentState() async {
+    await FirebaseFirestore.instance
+        .collection('Developer')
+        .doc('123456')
+        .get()
+        .then((snapshot) {
+      db_update = snapshot['DB_update'];
+      current_version = snapshot['current_version'];
+    });
+    await PackageInfo.fromPlatform().then((PackageInfo packageInfo) {
+      running_version = packageInfo.version;
+      print('running version = $running_version');
+    });
+    if (db_update == true) {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => MaintenanceBreak()));
+    } else {
+      if (running_version != current_version) {
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => MaintenanceBreak()));
+      }
+    }
   }
 
   @override
@@ -262,6 +300,23 @@ class _HomeState extends State<Home> {
             backgroundColor: Colors.white,
             elevation: 0,
             actions: [
+              IconButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => MaintenanceBreak()));
+                  },
+                  icon: Container(
+                    width: size.width * .1,
+                    height: size.width * .1,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.grey.shade200),
+                    child: Icon(
+                      Icons.scanner,
+                      color: Colors.black,
+                    ),
+                  )),
               PopupMenuButton<SearchMenuItem>(
                   offset: Offset(0, 50),
                   icon: Container(

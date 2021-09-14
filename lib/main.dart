@@ -1,6 +1,8 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:pet_lover/home.dart';
 import 'package:pet_lover/login.dart';
 import 'package:flutter/services.dart';
@@ -9,6 +11,7 @@ import 'package:pet_lover/provider/animalProvider.dart';
 import 'package:pet_lover/provider/groupProvider.dart';
 import 'package:pet_lover/provider/postProvider.dart';
 import 'package:pet_lover/provider/userProvider.dart';
+import 'package:pet_lover/sub_screens/maintenanceBreak.dart';
 import 'package:pet_lover/sub_screens/notificationList.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -23,11 +26,11 @@ void main() async {
   String? _currentMobileNo = _prefs.getString('mobileNo') ?? null;
 
   Widget _homeWidget;
-  if (_currentMobileNo != null)
+  if (_currentMobileNo != null) {
     _homeWidget = Home();
-  else
+  } else {
     _homeWidget = Login();
-
+  }
   runApp(MyApp(homepage: _homeWidget));
 }
 
